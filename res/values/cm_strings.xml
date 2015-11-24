@@ -215,4 +215,9 @@
     <string name="pattern_da_da_da">da-da-da</string>
     <string name="pattern_da_da_dzzz">da-da-dzzz</string>
     <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+
+    <!-- Reset battery stats -->
+    <string name="battery_stats_reset">Reset stats</string>
+    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="ok_string">Ok</string>
 </resources>
