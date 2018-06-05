@@ -335,6 +335,13 @@
         android:entryValues="@array/clipboard_toast_info_values"
         android:defaultValue="0" />
 
+    <com.android.settings.fork.preference.SystemSettingListPreference
+        android:key="flashlight_on_call"
+        android:title="@string/flashlight_on_call_title"
+        android:entries="@array/flashlight_on_call_entries"
+        android:entryValues="@array/flashlight_on_call_values"
+        android:defaultValue="0" />
+
     <!-- Gvisual mod -->
     <PreferenceCategory 
         android:key="gvisual_category"
