@@ -223,4 +223,7 @@
     <string name="pattern_da_da_da">da-da-da</string>
     <string name="pattern_da_da_dzzz">da-da-dzzz</string>
     <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+
+    <string name="battery_temp">Battery temperature</string>
+
 </resources>
