@@ -271,4 +271,7 @@
     <string name="fod_recog_animation_rog_pulsar">Pulsar</string>
     <string name="fod_recog_animation_rog_supernova">Supernova</string>
     <string name="fod_recog_animation_created_lotr">LOTR</string>
+
+    <string name="battery_temp">Battery temperature</string>
+
 </resources>
