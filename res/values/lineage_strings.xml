@@ -66,4 +66,7 @@
     <string name="notification_sound_vib_screen_on_title">Notification sound if active</string>
     <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
 
+    <!-- Themes customisation -->
+    <string name="theme_customization_systemui_title">Color bucket</string>
+
 </resources>
