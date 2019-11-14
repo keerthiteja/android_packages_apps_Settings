@@ -212,6 +212,11 @@
          android:entryValues="@array/switch_style_values"
          android:defaultValue="0" />
 
+    <ListPreference
+        android:key="display_cutout_emulation"
+        android:title="@string/display_cutout_emulation"
+        settings:keywords="@string/display_cutout_emulation_keywords" />
+
     <Preference
         android:key="qs_column_rows_settings"
         android:title="@string/qs_column_rows_settings_title"
