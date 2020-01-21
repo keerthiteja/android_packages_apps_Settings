@@ -12215,4 +12215,9 @@
     <!-- QS tile tint -->
     <string name="qs_bg_use_new_tint">Tint QS tiles using accent color</string>
     <string name="qs_bg_use_new_tint_summary">Enable the accent color tint on the QS tiles</string>
+
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Back gesture animation</string>
+    <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture.</string>
+
 </resources>
