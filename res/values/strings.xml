@@ -12215,4 +12215,12 @@
     <!-- QS tile tint -->
     <string name="qs_bg_use_new_tint">Tint QS tiles using accent color</string>
     <string name="qs_bg_use_new_tint_summary">Enable the accent color tint on the QS tiles</string>
+
+    <!-- Network traffic -->
+    <string name="traffic_title">Traffic indicators</string>
+    <string name="traffic_title_summary">Customize network traffic indicators</string>
+    <string name="network_traffic_title">Network traffic</string>
+    <string name="network_traffic_state_title">Show net activity in statusbar</string>
+    <string name="network_traffic_state_summary">Display network activity in the quick settings statusbar</string>
+    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold</string>
 </resources>

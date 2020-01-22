@@ -260,6 +260,12 @@
         android:title="@string/display_vr_pref_title"
         android:fragment="com.android.settings.display.VrDisplayPreferencePicker" />
 
+    <Preference
+        android:key="traffic"
+        android:fragment="com.fork.settings.fragments.status_bar.Traffic"
+        android:title="@string/traffic_title"
+        android:summary="@string/traffic_title_summary" />
+
     <!-- Gvisual mod -->
     <PreferenceCategory 
         android:key="gvisual_category"
