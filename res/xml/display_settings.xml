@@ -240,6 +240,12 @@
         android:title="@string/qs_column_rows_settings_title"
         android:fragment="com.android.settings.display.QsColumnsRowsFragment"/>
 
+    <com.android.settings.widget.preferences.SystemSettingSwitchPreference
+        android:key="qs_panel_bg_use_new_tint"
+        android:title="@string/qs_bg_use_new_tint"
+        android:summary="@string/qs_bg_use_new_tint_summary"
+        android:defaultValue="false" />
+
      <Preference
         android:key="vr_display_pref"
         android:title="@string/display_vr_pref_title"
