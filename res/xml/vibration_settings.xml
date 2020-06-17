@@ -64,8 +64,8 @@
             android:title="@string/pattern_dzzz_da" />
 
         <com.android.settings.widget.RadioButtonPreference
-            android:key="pattern_mm_mm_mm"
-            android:title="@string/pattern_mm_mm_mm" />
+            android:key="pattern_da_da_da"
+            android:title="@string/pattern_da_da_da" />
 
         <com.android.settings.widget.RadioButtonPreference
             android:key="pattern_da_da_dzzz"
