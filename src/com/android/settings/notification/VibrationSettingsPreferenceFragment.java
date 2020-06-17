@@ -44,7 +44,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class VibrationSettingsPreferenceFragment extends DashboardFragment 
+public class VibrationSettingsPreferenceFragment extends DashboardFragment
             implements Preference.OnPreferenceClickListener {
 
     private static final String TAG = "VibrationSettingsPreferenceFragment";
@@ -52,7 +52,7 @@ public class VibrationSettingsPreferenceFragment extends DashboardFragment
     private static final String RINGTONE_VIBRATION_PATTERN = "ringtone_vibration_pattern";
     private static final String INCALL_FEEDBACK_VIBRATE = "incall_feeedback_vibrate";
 
-    private static final String[] mKeys = {"pattern_dzzz_dzzz", "pattern_dzzz_da", "pattern_mm_mm_mm",
+    private static final String[] mKeys = {"pattern_dzzz_dzzz", "pattern_dzzz_da", "pattern_da_da_da",
         "pattern_da_da_dzzz", "pattern_da_dzzz_da"};
 
     private static final String RING_VIBRATION_INTENSITY = "ring_vibration_intensity";
@@ -74,14 +74,14 @@ public class VibrationSettingsPreferenceFragment extends DashboardFragment
         720, // How long to wait before vibrating again
     };
 
-    private static final long[] MM_MM_MM_VIBRATION_PATTERN = {
+    private static final long[] da_da_da_VIBRATION_PATTERN = {
         0, // No delay before starting
-        300, // How long to vibrate
-        400, // Delay
-        300, // How long to vibrate
-        400, // Delay
-        300, // How long to vibrate
-        1700, // How long to wait before vibrating again
+        30, // How long to vibrate
+        80, // Delay
+        30, // How long to vibrate
+        80, // Delay
+        20, // How long to vibrate
+        1050, // How long to wait before vibrating again
     };
 
     private static final long[] DA_DA_DZZZ_VIBRATION_PATTERN = {
@@ -314,7 +314,7 @@ public class VibrationSettingsPreferenceFragment extends DashboardFragment
                     FIVE_ELEMENTS_VIBRATION_AMPLITUDE, -1);
                 break;
             case 2:
-                mDefaultVibrationEffect = VibrationEffect.createWaveform(MM_MM_MM_VIBRATION_PATTERN,
+                mDefaultVibrationEffect = VibrationEffect.createWaveform(da_da_da_VIBRATION_PATTERN,
                     SEVEN_ELEMENTS_VIBRATION_AMPLITUDE, -1);
                 break;
             case 3:
