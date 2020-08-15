@@ -326,6 +326,15 @@
         android:summary="@string/show_app_volume_summary"
         android:defaultValue="true" />
 
+    <!-- Clipboard toast info -->
+    <com.android.settings.fork.preference.SystemSettingListPreference
+        android:key="clipboard_toast_info"
+        android:icon="@drawable/ic_clipboard_alert"
+        android:title="@string/clipboard_toast_info_title"
+        android:entries="@array/clipboard_toast_info_entries"
+        android:entryValues="@array/clipboard_toast_info_values"
+        android:defaultValue="0" />
+
     <!-- Gvisual mod -->
     <PreferenceCategory 
         android:key="gvisual_category"
