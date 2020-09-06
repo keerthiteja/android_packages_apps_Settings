@@ -312,6 +312,12 @@
             android:summary="@string/search_bar_style_summary"
             android:defaultValue="false" />
 
+    <com.android.settings.widget.preferences.SystemSettingSwitchPreference        
+        android:key="show_app_volume"
+        android:title="@string/show_app_volume_title"
+        android:summary="@string/show_app_volume_summary"
+        android:defaultValue="false" />
+
     <!-- Gvisual mod -->
     <PreferenceCategory 
         android:key="gvisual_category"

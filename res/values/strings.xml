@@ -12258,4 +12258,8 @@
     <string name="media_category">Media Notification options</string>
     <string name="artwork_media_background_title">Artwork media background</string>
     <string name="artwork_media_background_summary">Set media artwork as notification media background</string>
+
+    <!-- Per App Volume Control -->
+    <string name="show_app_volume_title">Show app volume</string>
+    <string name="show_app_volume_summary">Show app volume in volume panel</string>
 </resources>
