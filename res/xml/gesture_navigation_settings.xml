@@ -70,5 +70,11 @@
         android:key="immersive_navigation"
         android:title="@string/immersive_navigation_title"
         settings:allowDividerAbove="true" />
-</PreferenceScreen>
 
+    <com.android.settings.widget.preferences.SystemSettingSwitchPreference
+        android:key="back_gesture_haptic"
+        android:title="@string/back_gesture_haptic_title"
+        android:summary="@string/back_gesture_haptic_summary"
+        android:defaultValue="false" />
+
+</PreferenceScreen>
