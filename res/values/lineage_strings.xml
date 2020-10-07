@@ -135,4 +135,8 @@
     <string name="qs_media_player_summary_on">Show media player in QS\nRequires a SystemUI restart</string>
     <string name="qs_media_player_summary_off">Show media player as a notification\nRequires a SystemUI restart</string>
 
+    <!-- Quick settings haptic feedback -->
+    <string name="quick_settings_vibrate_title">Vibrate on touch</string>
+    <string name="quick_settings_vibrate_summary">Vibrate when touching tiles</string>
+
 </resources>

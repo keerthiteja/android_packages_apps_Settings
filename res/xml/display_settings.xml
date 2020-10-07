@@ -277,6 +277,12 @@
         android:title="@string/traffic_title"
         android:summary="@string/traffic_title_summary" />
 
+    <com.android.settings.widget.preferences.SystemSettingSwitchPreference
+        android:key="quick_settings_vibrate"
+        android:title="@string/quick_settings_vibrate_title"
+        android:summary="@string/quick_settings_vibrate_summary"
+        android:defaultValue="false"/>
+
     <!-- Gvisual mod -->
     <PreferenceCategory 
         android:key="gvisual_category"
