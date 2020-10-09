@@ -112,6 +112,12 @@
             android:summary="@string/notification_sound_vib_screen_on_summary"
             android:defaultValue="true" />
 
+    <com.android.settings.widget.preferences.SystemSettingSwitchPreference
+            android:key="notification_headers"
+            android:title="@string/notification_headers_title"
+            android:summary="@string/notification_headers_summary"
+            android:defaultValue="true" />
+
         <SwitchPreference
             android:key="silent_icons"
             android:title="@string/silent_notifications_status_bar"

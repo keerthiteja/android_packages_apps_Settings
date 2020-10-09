@@ -364,4 +364,7 @@
     <string name="sb_height_large">Large</string>
     <string name="sb_height_extralarge">Extra Large</string>
 
+    <!-- Notification headers -->
+    <string name="notification_headers_title">Notification Headers</string>
+    <string name="notification_headers_summary">Show headers in the notification shade</string>
 </resources>
