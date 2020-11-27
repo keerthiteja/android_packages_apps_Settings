@@ -54,4 +54,24 @@
         android:title="@string/unlock_scramble_pin_layout_title"
         android:summary="@string/unlock_scramble_pin_layout_summary" />
 
+    <!-- FOD recognizing animation -->
+    <PreferenceCategory
+        android:title="FOD"
+        android:key="fod_animations_category">    
+        <com.android.settings.widget.preferences.SystemSettingSwitchPreference
+            android:key="fod_recognizing_animation"
+            android:title="@string/fod_recog_animation"
+            android:summary="@string/fod_recog_animation_summary"
+            android:defaultValue="false" />
+
+        <com.android.settings.widget.preferences.SystemSettingListPreference
+            android:key="fod_recognizing_animation_list"
+            android:title="@string/fod_recog_animation_effect_title"
+            android:summary="%s"
+            android:entries="@array/fod_recog_animation_entries"
+            android:entryValues="@array/fod_recog_animation_values"
+            android:defaultValue="0"
+            android:dependency="fod_recognizing_animation" />
+    </PreferenceCategory>
+
 </PreferenceScreen>
