@@ -61,6 +61,22 @@
             android:title="@string/lockdown_settings_title"
             android:summary="@string/lockdown_settings_summary"
             settings:controller="com.android.settings.security.LockdownButtonPreferenceController" />
+        
+        <!-- FOD recognizing animation -->
+        <com.android.settings.widget.preferences.SystemSettingSwitchPreference
+            android:key="fod_recognizing_animation"
+            android:title="@string/fod_recog_animation"
+            android:summary="@string/fod_recog_animation_summary"
+            android:defaultValue="false" />
+
+        <com.android.settings.widget.preferences.SecureSettingListPreference
+            android:key="fod_recognizing_animation_list"
+            android:title="@string/fod_recog_animation_effect_title"
+            android:summary="%s"
+            android:entries="@array/fod_recog_animation_entries"
+            android:entryValues="@array/fod_recog_animation_values"
+            android:defaultValue="0"
+            android:dependency="fod_recognizing_animation" />
 
     </PreferenceCategory>
 
