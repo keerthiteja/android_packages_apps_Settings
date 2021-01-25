@@ -129,4 +129,10 @@
     <string name="alarm_blocker_warning_title">Proceed with caution</string>
     <string name="alarm_blocker_warning">Blocking alarms have the potential to cause instability, crashes or data loss.</string>
 
+    <!-- QS media player -->
+    <string name="qs_media">QuickSettings Media</string>
+    <string name="qs_media_player_title">Media player</string>
+    <string name="qs_media_player_summary_on">Show media player in QS\nRequires a SystemUI restart</string>
+    <string name="qs_media_player_summary_off">Show media player as a notification\nRequires a SystemUI restart</string>
+
 </resources>
