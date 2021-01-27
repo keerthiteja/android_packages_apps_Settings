@@ -155,5 +155,8 @@
 	<!-- Back gesture settings -->
     <string name="back_gesture_arrow_title">Hide back arrow animation</string>
     <string name="back_gesture_arrow_summary">Hide the arrow animation on back gesture</string>
+
+    <string name="wifi_tether_client_list_title">Client List</string>
+    <string name="wifi_tether_client_list_summary">Manage clients connected to hotspot</string>
 	
 </resources>
