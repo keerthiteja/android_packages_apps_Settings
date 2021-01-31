@@ -166,5 +166,9 @@
     <!-- Lock icon -->
     <string name="hide_lockicon_title">Hide lock icon</string>
     <string name="hide_lockicon_summary">Hide the lock icon on lockscreen</string>
+
+    <!-- Clipboard toast toggle -->
+    <string name="show_clipboard_toast">Show clipboard access alerts</string>
+    <string name="show_clipboard_toast_summary">Display a toast when an app tries to access the clipboard</string>
 	
 </resources>
