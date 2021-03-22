@@ -19,6 +19,7 @@ import android.app.Activity;
 import android.app.settings.SettingsEnums;
 import android.content.ContentResolver;
 import android.content.Context;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.ArrayMap;
@@ -28,6 +29,7 @@ import android.util.Log;
 import androidx.annotation.CallSuper;
 import androidx.annotation.VisibleForTesting;
 import androidx.preference.Preference;
+import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceGroup;
 import androidx.preference.PreferenceManager;
 import androidx.preference.PreferenceScreen;
@@ -58,6 +60,8 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.Set;
 import java.util.concurrent.ExecutionException;
+
+import lineageos.app.LineageContextConstants;
 
 /**
  * Base fragment for dashboard style UI containing a list of static and dynamic setting items.
@@ -445,6 +449,20 @@ public abstract class DashboardFragment extends SettingsPreferenceFragment
 
         updatePreferenceVisibility(mPreferenceControllers);
         updateCategoryVisibility();
+        FODAnimations();
+    }
+
+    private void FODAnimations() {
+        final String Key_FOD_Animations_Category = "fod_animations_category";
+        PackageManager mPackageManager = getContext().getPackageManager();
+        final boolean FOD = mPackageManager.hasSystemFeature(LineageContextConstants.Features.FOD);
+        if (!FOD){
+            PreferenceCategory mPreferenceCategory = (PreferenceCategory) findPreference(Key_FOD_Animations_Category);
+            if (mPreferenceCategory != null)
+            {
+            getPreferenceScreen().removePreference(mPreferenceCategory);
+            }
+        }
     }
 
     @VisibleForTesting
