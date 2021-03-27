@@ -265,6 +265,12 @@
         android:title="@string/display_vr_pref_title"
         android:fragment="com.android.settings.display.VrDisplayPreferencePicker" />
 
+    <com.android.settings.widget.preferences.SystemSettingSwitchPreference
+        android:key="dismiss_all_button"
+        android:title="@string/enable_clear_all_button"
+        android:summary="@string/enable_clear_all_button_summary"
+        android:defaultValue="false" />
+
     <Preference
         android:key="traffic"
         android:fragment="com.fork.settings.fragments.status_bar.Traffic"
