@@ -35,7 +35,8 @@
 
     <com.android.settings.display.darkmode.DarkModePreference
         android:key="dark_ui_mode"
-        android:title="@string/dark_ui_mode"
+	android:icon="@drawable/ic_dark_theme"    
+	android:title="@string/dark_ui_mode"
         android:fragment="com.android.settings.display.darkmode.DarkModeSettingsFragment"
         android:widgetLayout="@null"
         settings:widgetLayout="@null"
@@ -148,7 +149,8 @@
 
     <com.android.settings.display.DensityPreference
         android:key="density"
-        android:title="@string/developer_smallest_width" />
+	android:icon="@drawable/ic_smallest_width"    
+	android:title="@string/developer_smallest_width" />
 
     <SwitchPreference
         android:key="show_operator_name"
@@ -161,7 +163,8 @@
 
     <Preference
         android:key="screensaver"
-        android:title="@string/screensaver_settings_title"
+	android:icon="@drawable/ic_screensaver"   
+	android:title="@string/screensaver_settings_title"
         android:fragment="com.android.settings.dream.DreamSettings" />
 
     <Preference
@@ -188,7 +191,8 @@
         android:summary="@string/tap_to_wake_summary" />
 
     <SwitchPreference 
-        android:key="enable_blurs_on_windows" 
+        android:key="enable_blurs_on_windows"
+	android:icon="@drawable/ic_blur_enable"  
         android:title="@string/enable_blurs_on_windows_title" 
         android:summary="@string/enable_blurs_on_windows_summary" />
 
