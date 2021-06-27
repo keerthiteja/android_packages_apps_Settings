@@ -283,6 +283,13 @@
         android:summary="@string/quick_settings_vibrate_summary"
         android:defaultValue="false"/>
 
+    <com.android.settings.widget.preferences.SystemSettingSwitchPreference
+            android:key="use_new_searchbar"
+            android:title="@string/search_bar_style_title"
+            android:icon="@drawable/ic_searchbar"
+            android:summary="@string/search_bar_style_summary"
+            android:defaultValue="false" />
+
     <!-- Gvisual mod -->
     <PreferenceCategory 
         android:key="gvisual_category"
