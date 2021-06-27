@@ -38,6 +38,7 @@
     <string name="switch_telegram">Telegram</string>
     <string name="switch_md2">Material Design 2</string>
     <string name="switch_oos">OxygenOS 11</string>
+    <string name="switch_android12">Android 12</string>
 
     <!-- QS rows and columns -->
     <string name="qs_column_rows_settings_title">QS panel settings</string>
