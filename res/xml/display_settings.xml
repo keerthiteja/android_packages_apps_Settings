@@ -259,6 +259,13 @@
          android:summary="@string/data_disabled_icon_summary"
          android:defaultValue="true"/>
 
+    <com.android.settings.widget.preferences.SystemSettingSwitchPreference
+        android:key="statusbar_icons_style"
+        android:icon="@drawable/ic_status_icon"
+        android:title="@string/statusbar_icons_style"
+        android:summary="@string/statusbar_icons_style_summary"
+        android:defaultValue="false" />
+
     <ListPreference
         android:key="display_cutout_emulation"
         android:icon="@drawable/ic_display_cut"
