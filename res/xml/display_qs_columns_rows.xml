@@ -16,6 +16,40 @@
     android:key="qs_column_rows_settings_screen"
     android:title="@string/qs_column_rows_settings_title">
 
+    <!-- QS media player -->
+    <com.android.settings.widget.preferences.SystemSettingSwitchPreference
+        android:key="qs_media_player"
+        android:title="@string/qs_media_player_title"
+        android:summaryOn="@string/qs_media_player_summary_on"
+        android:summaryOff="@string/qs_media_player_summary_off"
+        android:defaultValue="true" />
+
+    <com.android.settings.widget.preferences.SystemSettingSwitchPreference
+        android:key="artwork_media_background"
+        android:title="@string/artwork_media_background_title"
+        android:summary="@string/artwork_media_background_summary"
+        android:defaultValue="false" />
+
+    <com.android.settings.widget.preferences.SystemSettingSwitchPreference
+        android:key="qs_panel_bg_use_new_tint"
+        android:title="@string/qs_bg_use_new_tint"
+        android:summary="@string/qs_bg_use_new_tint_summary"
+        android:defaultValue="false" />
+
+    <com.android.settings.fork.preference.SystemSettingListPreference
+        android:key="qs_datausage"
+        android:title="@string/qs_datausage_title"
+        android:entries="@array/qs_datausage_entries"
+        android:entryValues="@array/qs_datausage_values"
+        android:summary="%s"
+        android:defaultValue="0" />
+
+    <com.android.settings.widget.preferences.SystemSettingSwitchPreference
+        android:key="qs_panel_bg_use_new_tint"
+        android:title="@string/qs_bg_use_new_tint"
+        android:summary="@string/qs_bg_use_new_tint_summary"
+        android:defaultValue="false" />
+
     <com.abc.support.preferences.SystemSettingSwitchPreference
         android:key="qs_tile_title_visibility"
         android:title="@string/qs_tile_title_visibility_title"
@@ -56,4 +90,5 @@
             android:defaultValue="4"
             settings:units="" />
         </PreferenceCategory>
+
 </PreferenceScreen>
