@@ -147,4 +147,8 @@
     <string name="search_bar_style_title">Use Android 12 Search Bar</string>
     <string name="search_bar_style_summary">Toggle to use Android 12 style searchbar in Settings app. Settings app needs to be manually restarted for the change to take effect.</string>
 
+	<!-- Screen off fod -->
+    <string name="fod_gesture_title">Screen off fingerprint</string>
+    <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
+	
 </resources>

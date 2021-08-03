@@ -45,5 +45,8 @@
     <bool name="configShowDeviceSensitiveInfo">false</bool>
 
     <color name="homepage_container_bg">@android:color/transparent</color>
+	
+	<!-- Screen off FOD -->
+    <bool name="config_supportScreenOffFod">false</bool>
 
 </resources>
