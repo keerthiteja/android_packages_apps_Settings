@@ -87,5 +87,11 @@
         android:title="@string/back_gesture_haptic_title"
         android:summary="@string/back_gesture_haptic_summary"
         android:defaultValue="false" />
+		
+	<lineageos.preference.SecureSettingSwitchPreference
+        android:key="hide_back_arrow_gesture"
+        android:title="@string/back_gesture_arrow_title"
+        android:summary="@string/back_gesture_arrow_summary"
+        android:defaultValue="false" />
 
 </PreferenceScreen>

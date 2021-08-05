@@ -151,4 +151,8 @@
     <string name="fod_gesture_title">Screen off fingerprint</string>
     <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
 	
+	<!-- Back gesture settings -->
+    <string name="back_gesture_arrow_title">Hide back arrow animation</string>
+    <string name="back_gesture_arrow_summary">Hide the arrow animation on back gesture</string>
+	
 </resources>
