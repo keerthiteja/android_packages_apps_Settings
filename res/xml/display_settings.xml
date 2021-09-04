@@ -61,6 +61,7 @@
 
     <org.lineageos.internal.lineageparts.LineagePartsPreference
         android:key="livedisplay"
+        android:icon="@drawable/ic_live_display"
         lineage:requiresConfig="@*lineageos.platform:bool/config_enableLiveDisplay" />
 
     <com.android.settingslib.RestrictedPreference
@@ -131,6 +132,7 @@
 
     <com.android.settings.display.FontDialogPreference
         android:key="custom_font"
+        android:icon="@drawable/ic_fonts"
         android:title="@string/font_picker_title"
         android:persistent="false" />
 
@@ -207,18 +209,21 @@
     <!-- Double tap to sleep -->
     <lineageos.preference.LineageSystemSettingSwitchPreference
         android:key="double_tap_sleep_gesture"
+        android:icon="@drawable/ic_double_tap"
         android:title="@string/status_bar_double_tap_to_sleep_title"
         android:summary="@string/status_bar_double_tap_to_sleep_summary"
         android:defaultValue="true" />
 
     <lineageos.preference.LineageGlobalSettingSwitchPreference
         android:key="wake_when_plugged_or_unplugged"
+        android:icon="@drawable/ic_wake_plug"
         android:title="@string/wake_when_plugged_or_unplugged_title"
         android:summary="@string/wake_when_plugged_or_unplugged_summary"
       android:defaultValue="@*android:bool/config_unplugTurnsOnScreen" />
 
     <lineageos.preference.LineageSystemSettingSwitchPreference
         android:key="high_touch_sensitivity_enable"
+        android:icon="@drawable/ic_high_touch"
         android:title="@string/high_touch_sensitivity_title"
         android:summary="@string/high_touch_sensitivity_summary"
         android:defaultValue="false"
@@ -232,6 +237,7 @@
 
     <com.android.settings.fork.preference.SystemSettingListPreference
          android:key="switch_style"
+        android:icon="@drawable/ic_switch"
          android:title="@string/switch_style_title"
          android:persistent="false"
          android:entries="@array/switch_style_entries"
@@ -254,27 +260,32 @@
 
     <ListPreference
         android:key="display_cutout_emulation"
+        android:icon="@drawable/ic_display_cut"
         android:title="@string/display_cutout_emulation"
         settings:keywords="@string/display_cutout_emulation_keywords" />
 
     <Preference
         android:key="qs_column_rows_settings"
+        android:icon="@drawable/ic_qs_panel"
         android:title="@string/qs_column_rows_settings_title"
         android:fragment="com.android.settings.display.QsColumnsRowsFragment"/>
 
      <Preference
         android:key="vr_display_pref"
+        android:icon="@drawable/ic_vr"
         android:title="@string/display_vr_pref_title"
         android:fragment="com.android.settings.display.VrDisplayPreferencePicker" />
 
     <com.android.settings.widget.preferences.SystemSettingSwitchPreference
         android:key="dismiss_all_button"
+        android:icon="@drawable/ic_dismisall"
         android:title="@string/enable_clear_all_button"
         android:summary="@string/enable_clear_all_button_summary"
         android:defaultValue="false" />
 
     <Preference
         android:key="traffic"
+        android:icon="@drawable/ic_settings_traffic"
         android:fragment="com.fork.settings.fragments.status_bar.Traffic"
         android:title="@string/traffic_title"
         android:summary="@string/traffic_title_summary" />
@@ -293,6 +304,7 @@
 
         <PreferenceScreen
             android:key="gvisual"
+            android:icon="@drawable/ic_gvisual"
             android:title="@string/gvisual_title"
             android:summary="@string/gvisual_summary"
             android:fragment="com.fork.settings.fragments.GvisualSettings" />
