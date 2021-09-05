@@ -49,4 +49,7 @@
 	<!-- Screen off FOD -->
     <bool name="config_supportScreenOffFod">false</bool>
 
+    <!-- Smart Cutoff -->
+    <bool name="config_supportSmartCutoff">false</bool>
+
 </resources>

@@ -22,4 +22,7 @@
     <!-- Smart Charging -->
     <java-symbol type="bool" name="config_supportSmartCharging" />
 
+    <!-- Smart Cutoff -->
+    <java-symbol type="bool" name="config_supportSmartCutoff" />
+
 </resources>
