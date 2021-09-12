@@ -123,7 +123,7 @@
 
     <com.android.settings.fuelgauge.PowerGaugePreference 
         android:key="battery_charge_cycles"
-        android:icon="@drawable/ic_batt_cap" 
+        android:icon="@drawable/ic_batt_cycle" 
         android:title="@string/battery_charge_cycles"
         android:selectable="false" />
 
