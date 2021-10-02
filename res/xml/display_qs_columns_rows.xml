@@ -25,6 +25,12 @@
         android:defaultValue="true" />
 
     <com.android.settings.widget.preferences.SystemSettingSwitchPreference
+        android:key="qs_brightness_position_bottom"
+        android:title="@string/qs_brightness_position_bottom_title"
+        android:summary="@string/qs_brightness_position_bottom_summary"
+        android:defaultValue="false" />  
+
+    <com.android.settings.widget.preferences.SystemSettingSwitchPreference
         android:key="artwork_media_background"
         android:title="@string/artwork_media_background_title"
         android:summary="@string/artwork_media_background_summary"

@@ -178,5 +178,9 @@
     <string name="flashlight_on_call_not_dnd">Only in ringer mode</string>
     <string name="flashlight_on_call_dnd">Only in DND mode</string>
     <string name="flashlight_on_call_always">Always</string>
+
+    <!--QS brightness slider at bottom-->
+    <string name="qs_brightness_position_bottom_title">Brightness slider at bottom</string>
+    <string name="qs_brightness_position_bottom_summary">Show the brightness slider on bottom quick settings</string>
 	
 </resources>
